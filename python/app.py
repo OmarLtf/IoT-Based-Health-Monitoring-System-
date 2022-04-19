@@ -386,7 +386,7 @@ def update_layout(n):
 
 
 #-----------------------Body Postions-----------------------------------
-@app.callback(Output('body_pos','children') ,
+@app.callback(Output('body_pos','children' ) ,
     Input('my_interval', 'n_intervals')
 )
 def update_layout(n):
